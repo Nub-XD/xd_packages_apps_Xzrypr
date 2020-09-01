@@ -39,6 +39,14 @@
           android:layout="@layout/xd_pref_card_mid"
           android:fragment="com.xzrypr.settings.fragments.GamingModeSettings"/>
      
+     <!-- Adblock -->
+     <com.xzrypr.settings.preferences.SystemPropSwitchPreference
+            android:key="persist.xd.hosts_block"
+            android:title="@string/hosts_block_title"
+            android:summary="@string/hosts_block_summary"
+            android:layout="@layout/xd_pref_card_mid"
+            android:defaultValue="false" />
+     
      <!--  Application downgrade -->
      <com.xzrypr.settings.preferences.GlobalSettingSwitchPreference
         android:key="pm_downgrade_allowed"
