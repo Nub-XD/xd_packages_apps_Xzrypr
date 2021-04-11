@@ -66,4 +66,10 @@
           android:summary="@string/artwork_media_background_summary"
           android:defaultValue="false" />
 
+     <com.xzrypr.settings.preferences.SystemSettingSwitchPreference
+          android:key="notification_headers"
+          android:title="@string/notification_headers_title"
+          android:summary="@string/notification_headers_summary"
+          android:defaultValue="true" />
+
 </PreferenceScreen>
