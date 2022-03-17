@@ -196,4 +196,7 @@
   <string name="custom_seekbar_default_value">secara bawaan</string>
   <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTahan untuk mengubah</string>
   <string name="custom_seekbar_default_value_is_set">Nilai bawaan terset</string>
+  <!--  Application downgrade -->
+  <string name="app_downgrade_title">Izinkan downgrade aplikasi</string>
+  <string name="app_downgrade_summary">Ini memungkinkan Anda untuk menurunkan versi aplikasi. Perhatikan bahwa ini dapat menyebabkan kerusakan dan kerusakan data.</string>
 </resources>
