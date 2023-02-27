@@ -28,7 +28,15 @@
           android:key="advanced_reboot"
           android:title="@string/global_actions_advanced_reboot_title"
           android:summary="@string/global_actions_advanced_reboot_summary"
-          android:layout="@layout/xd_pref_card_sin"
+          android:layout="@layout/xd_pref_card_top"
           android:defaultValue="false" />
+
+     <!-- Gaming mode -->
+     <Preference
+          android:key="gaming_category"
+          android:title="@string/gaming_title" 
+          android:summary="@string/gaming_summary"
+          android:layout="@layout/xd_pref_card_bot"
+          android:fragment="com.xzrypr.settings.fragments.GamingModeSettings"/>
 
 </PreferenceScreen>

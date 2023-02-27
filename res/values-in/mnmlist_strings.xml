@@ -149,6 +149,7 @@
   <string name="theme_customization_sysui_icon_title">Gaya ikon</string>
   <!-- Gaming mode -->
   <string name="gaming_title">Mode Gaming</string>
+  <string name="gaming_summary">Membantu pegalaman bermain game anda</string>
   <string name="gaming_mode_enabled_title">Nyalakan mode gaming</string>
   <string name="gaming_mode_disable_auto_brightness_title">Matikan kecerahan otomatis</string>
   <string name="gaming_mode_disable_auto_brightness_summary">Mematikan kecerahan otomatis ketika didalam mode gaming</string>
