@@ -36,7 +36,7 @@
           android:key="gaming_category"
           android:title="@string/gaming_title" 
           android:summary="@string/gaming_summary"
-          android:layout="@layout/xd_pref_card_bot"
+          android:layout="@layout/xd_pref_card_mid"
           android:fragment="com.xzrypr.settings.fragments.GamingModeSettings"/>
      
      <!--  Application downgrade -->
@@ -44,6 +44,7 @@
         android:key="pm_downgrade_allowed"
         android:title="@string/app_downgrade_title"
         android:summary="@string/app_downgrade_summary"
+        android:layout="@layout/xd_pref_card_mid"
         android:defaultValue="false"/>
      
      <!-- Ignore window secure -->
@@ -51,6 +52,7 @@
             android:key="window_ignore_secure"
             android:title="@string/ignore_window_secure_title"
             android:summary="@string/ignore_window_secure_summary"
+            android:layout="@layout/xd_pref_card_bot"
             android:defaultValue="false"/>
 
 </PreferenceScreen>
