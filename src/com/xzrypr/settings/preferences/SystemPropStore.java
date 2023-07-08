@@ -18,6 +18,7 @@ package com.xzrypr.settings.preferences;
 
 import android.os.SystemProperties;
 import android.preference.PreferenceDataStore;
+import android.provider.Settings;
 
 public class SystemPropStore extends androidx.preference.PreferenceDataStore
         implements PreferenceDataStore {

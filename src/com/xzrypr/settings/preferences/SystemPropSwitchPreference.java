@@ -18,6 +18,7 @@ package com.xzrypr.settings.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import androidx.preference.SwitchPreference;
 
 public class SystemPropSwitchPreference extends SwitchPreference {
 
