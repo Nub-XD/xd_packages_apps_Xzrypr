@@ -30,14 +30,9 @@
         android:selectable="false"/>
 
     <ListPreference
-        android:key="android.theme.customization.accent_color"
-        android:title="@string/theme_customization_accent_color_title"
-        android:layout="@layout/xd_pref_card_top"/>
-
-    <ListPreference
         android:key="android.theme.customization.font"
         android:title="@string/theme_customization_font_title"
-        android:layout="@layout/xd_pref_card_mid"/>
+        android:layout="@layout/xd_pref_card_top"/>
 
     <ListPreference
         android:key="android.theme.customization.adaptive_icon_shape"
